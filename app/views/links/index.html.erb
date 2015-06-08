@@ -1,2 +1,5 @@
-<h1>Links#index</h1>
-<p>Find me in app/views/links/index.html.erb</p>
+<% @links.each do |link| %>
+  <ul>
+    <li> <%= link_to link.title, link.url %> </li>
+  </ul>
+<% end %>
