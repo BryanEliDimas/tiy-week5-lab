@@ -7,6 +7,10 @@ Rails.application.routes.draw do
 
   post 'edit/:id' => 'links#edit', as: :edit
 
+  get 'links/:id/upvote' => 'links#upvote', as: :upvote
+
+  get 'links/:id/downvote' => 'links#downvote', as: :downvote
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

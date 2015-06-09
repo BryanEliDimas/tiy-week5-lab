@@ -4,10 +4,10 @@
   </div>
 </div>
 <div class="row">
-  <div class="four columns offset-by-one">
+  <div class="six columns offset-by-one">
     <% @links.each do |link| %>
       <ul>
-        <li> <%= link_to link.title, link.url %>  </li>
+        <li><%= link_to image_tag("up.png"), upvote_path(id: link.id) %> <%= link_to image_tag("down.png"), downvote_path(id: link.id) %> <%= link_to link.title, link.url, class: "the_links" %> <span id="votes"><%= link.votes %></span> </li>
       </ul>
     <% end %>
   </div>
