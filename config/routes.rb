@@ -5,8 +5,8 @@ Rails.application.routes.draw do
 
   post 'links' => 'links#create', as: :links
 
-  get 'links/edit/:id' => 'links#new', as: :edit
-  
+  post 'edit/:id' => 'links#edit', as: :edit
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

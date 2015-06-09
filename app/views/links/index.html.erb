@@ -1,5 +1,14 @@
-<% @links.each do |link| %>
-  <ul>
-    <li> <%= link_to link.title, link.url %> </li>
-  </ul>
-<% end %>
+<div class="row">
+  <div class="four columns">
+    <h1>Watchit</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="four columns offset-by-one">
+    <% @links.each do |link| %>
+      <ul>
+        <li> <%= link_to link.title, link.url %>  </li>
+      </ul>
+    <% end %>
+  </div>
+</div>

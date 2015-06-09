@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+ background: #0e83cd;
+ padding-top: 4rem;
+ color: black;
+}
+
+h1 {
+  color: white;
+}
+
+a {
+ text-decoration: none;
+ color: #2ecc71;
+ font-size: 130%;
+}
+
+a:hover {
+  display: block;
+  color: white;
+  background: #ef5e50;
+  -webkit-transform:rotate(6deg);
+  transform:rotate(6deg);
+}
+
+li {
+  list-style-image: url('http://icons.iconarchive.com/icons/blackvariant/button-ui-requests-15/24/PhotoscapeX-icon.png');
+}
+
+ li:hover {
+
+ }
