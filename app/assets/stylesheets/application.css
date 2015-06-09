@@ -22,12 +22,18 @@ body {
 
 h1 {
   color: white;
+  display:inline;
+  margin-right: 2rem;
 }
 
 .the_links {
  text-decoration: none;
  color: black;
  font-size: 130%;
+}
+
+.the_links:hover {
+ color: white;
 }
 
 #votes {
