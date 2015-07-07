@@ -10,11 +10,3 @@
 To:
 * Model Data
 * Publish to Heroku
-
-### Requirements
-
-* Reddit is "User-generated news links. Votes promote stories to the front
-  page."
-* Each Link should have a "number of positive votes" column
-* The homepage should order by the most number of votes
-* Clicking on a link should increment positive vote
